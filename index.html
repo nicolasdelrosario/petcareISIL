@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetCare</title>
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <!-- Font Family - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="min--100 grid place--center">
+      <h1 class="section__title">Petcare</h1>
+      <p class="section__subtitle">Sign into your account</p>
+      <div class="container">
+        <form class="flex flex--column" action="/auth" method="POST">
+          <input class="form__input-lg" type="text" placeholder="Username" />
+          <input class="form__input-lg" type="text" placeholder="Password" />
+
+          <p class="mb-2">
+            Don&#39;t have an account?
+            <a href="#">Sign up</a>
+          </p>
+
+          <button type="submit" class="button mt-1">Sign in</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
